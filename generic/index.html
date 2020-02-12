@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+	<title>Home</title>
+
+	<meta http-equiv='Content-Type' content='text/html;charset=utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+	<!-- ------------------------------ -->
+	<!--   Include CSS libraries here   -->
+	<!-- ------------------------------ -->
+
+	<link rel='stylesheet' type='text/css' href='static/inc/common.css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="icon" href="static/images/icon.png">
+
+
+	<!-- ------------------------------ -->
+	<!--   Include JS libraries here    -->
+	<!-- ------------------------------ -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type='text/javascript' src='static/inc/common.js'></script>
+</head>
+
+<body>
+	<div id='body_content'>
+		<!-- The page header content -->
+		<div id='hd'>
+			<h1 class="home-content">&nbsp;Tic Tac Toe</h1>
+			<h3 class="">Welcome to the Tic Tac Toe Game &nbsp;</h3>
+		</div>
+
+		<!-- This is the body content -->
+		<div id='bd' class="content">
+
+			<div id="winner" class="winner-style"></div>
+			<div id="player1" class="player-1-style">Player 1's turn</div>
+			<div id="player2" class="player-2-style" hidden >Player 2's turn</div>
+
+			<br>
+
+			<table id="game-table">
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+
+			<br>
+			<button type="button" id="restart-game" class="btn btn-link" onClick="window.location.reload();">Restart game?</button>
+
+		</div>
+
+		<!-- The page footer content -->
+		<div id='ft'>
+			<p>&copy; Esther Obodyanik 2020</p>
+		</div>
+	</div>
+</body>
+
+</html>
